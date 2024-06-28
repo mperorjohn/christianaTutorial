@@ -1,70 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jumia</title>
-    <link rel="stylesheet" href="tiaanaa.css">
-</head>
-<body>
-    <header><h1>Yemi Fashion</h1></header>
-
-    
-    <div class="container">
-        <!-- form -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yemi fashions training application form</title>
+        <link rel="stylesheet" href="tiaanaa.css">
+    </head>
+    <body>
+        <header>
+            <h1>Yemi fashions</h1>
+            <h2>Training course signup</h2>
+            <h3>Participant registration form</h3>
+            
+        </header>
+        <div class="container">
             <section>
                 <form action="" method="POST">
-                    <label for="firstname">First Name</label><br>
-                    <input type="text" name="firstname" id="" required><br>
-                    
-                    <label for="lastname">Last Name</label><br>
-                    <input type="text" name="lastname" id="" required><br>
-        
-                    <label for="email">Email Address</label><br>
-                    <input type="email" name="email" id="" required><br>
-        
-        
-                    <label for="phone">Phone Number</label><br>
-                    <input type="tel" name="phone" id="" required><br>
-        
-                    <label for="dob">Date of Birth</label><br>
-                    <input type="date" name="dob" id="" required><br>
-        
-                    <label for="gender">Gender</label><br>
-                    <select name="gender" id="" required>
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                        <option value="Others">Others</option>
+                    <label for="title">Title</label><br>
+                    <select name="title" id="" required>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                        <option value="Miss">Miss</option>
                     </select><br>
-        
-                    <label for="profilePicture">Upload Passport</label><br>
-                    <input type="file" name="profilePiture" id="" required><br>
-        
-        
-                    <label for="password">Password</label><br>
-                    <input type="password" name="password" id="" required><br>
-        
-        
-                    <label for="confirmPassword">Confirm Password</label><br>
-                    <input type="password" name="passwordTwo" id="" required><br>
-        
-        
-                    <button type="submit" class="submit">Submit form</button> <button type="reset" class="reset">Clear Form</button>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+                    <label for="Firstname">First Name</label><br>
+                    <input type="text" name="firstname" id="" required><br>
+
+                    <label for="Lastname">Last Name</label><br>
+                    <input type="text" name="Lastname" id="" required><br>
+
+                    <label for="position">Position</label><br>
+                    <input type="text" name="position" id=""required><br>
+
+                    <label for="fashionhouse">Fashion House</label><br>
+                    <input type="text" name="fashionhouse" id=""required><br>
+
+                    <label for="phonenumber">Phone Number</label><br>
+                    <input type="number" name="phonenumber" id=""required><br>
+                    
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id=""required><br>
+
+                    <label for="Howyougottoknow">How did you find out about the training?</label><br>
+                    <input type="text" name="Howyougottoknow" id=""required><br>
+
+                    <label for="date">Start date</label><br>
+                    <input type="date" name="date" id=""required><br>
+
+                    <label for="preferredtime">Preferred time of the day</label><br>
+                    <input type="time" name="preferredtime" id=""required><br>
+
+                    <label for="expressionofinterest">Upload Expression of interest as a single file</label><br>
+                    <input type="file" name="expressionofinterest" id=""required><br>
+
+                    <label for="Website">Do you have a company website?</label><br>
+                    <select name="Website" id="" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br>
+
+                    <label for="companywebsite">If Yes, Input company website</label><br>
+                    <input type="url" name="companywebsite"><br>
+
+                    <h4>Will you prefer online classes or onsite?</h4>
+                    <input type="checkbox" id="option1" name="option1" value="online">
+                    <label for="option1">Online</label><br>
+                    
+                    <input type="checkbox" id="option2" name="option2" value="onsite">
+                    <label for="option2">Onsite</label><br>
+
+                    <label for="Password">Password</label><br>
+                    <input type="password" name="password" id=""required><br>
+
+                    <label for="confirmpassword">Confirm Password</label><br>
+                    <input type="password" name="password" id=""required><br>
+
+                    <button type="submit" class="submit">Submit form</button><br> 
+                    <button type="reset" class="reset">Reset</button><br>
+
                 </form>
-
-    </div>
-
-    </section>
-  
-</body>
+            </section>
+        </div>
+    </body>
 </html>
