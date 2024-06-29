@@ -65,7 +65,22 @@ input{
     color: white;
     border-radius: 8px;
     border: none;
-    
+ 
 
 }
 
+table{
+    border:1px solid black
+    
+}
+th, td{
+    border-radius: 10px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(14, 139, 139);
+}
+
+tr:hover{
+    background-color: rgb(124, 58, 58);
+}
