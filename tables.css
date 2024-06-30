@@ -1,0 +1,17 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    display: flex;
+    margin-top: 5rem;
+
+}
+section {
+    background-color: cyan;
+    border-radius: 10px;
+    color: rgb(2, 29, 29);
+    padding: 10px;
+}
+table{
+    border: 3px solid beige;
+}
