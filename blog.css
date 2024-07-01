@@ -60,3 +60,21 @@ nav ul li a:hover{
 .anchorReadMore{
     cursor: pointer;
 }
+.subscribe{
+    text-align: center; 
+}
+input{
+    padding: 8px;
+    border-radius: 6px;
+    background-color: pink;
+    outline: none;
+    
+}
+.submit{
+    padding: 15px;
+    margin-top: 10px;
+    background-color: rgb(104, 13, 51);
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
