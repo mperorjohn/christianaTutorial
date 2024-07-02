@@ -64,17 +64,33 @@ nav ul li a:hover{
     text-align: center; 
 }
 input{
-    padding: 8px;
+    padding: 10px;
     border-radius: 6px;
     background-color: pink;
     outline: none;
+    border:none;
     
 }
 .submit{
-    padding: 15px;
+    padding: 6px;
     margin-top: 10px;
     background-color: rgb(104, 13, 51);
     color: white;
     border-radius: 8px;
     border: none;
+}
+.buynow{
+    padding: 10px;
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #2e0406;
+    color: white;
+}
+.forSale{
+    display: flex;
+    padding: 20px;
 }
