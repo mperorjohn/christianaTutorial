@@ -45,7 +45,8 @@ nav ul li a:hover{
 }
 
 .card{
-    margin: 15px;
+    margin: 15px;   
+      
 }
 
 .readMore{
@@ -54,6 +55,7 @@ nav ul li a:hover{
     color: black;
     border: none;
     border-radius: 5px;
+
 }
 
 
@@ -91,6 +93,12 @@ button:hover{
     color: white;
 }
 .forSale{
-    display: flex;
     padding: 20px;
+    display: flex;
+}
+.sample{
+    
+    border: solid black;
+    border-radius: 10px; 
+    
 }
