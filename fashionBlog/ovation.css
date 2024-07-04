@@ -1,14 +1,16 @@
 .image {
     display: flex;
-    
-    
-}
+    justify-content: center;
+    padding: 10px;
+}   
+
 .picturerow{
     display: flex;
-    border-radius: 10px;
-    border: solid black;
 }
 
-section{
-    justify-content: center;
+img{
+    border: solid rgb(221, 110, 110);
+    border-radius: 2px;
+
 }
+    
