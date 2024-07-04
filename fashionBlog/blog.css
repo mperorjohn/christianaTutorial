@@ -82,19 +82,10 @@ input {
 .submit {
     padding: 6px;
     margin-top: 10px;
-    background-color: white;
+    background-color: rgb(124, 26, 26);
     color: pink;
     border-radius: 8px;
     border: none;
-}
-
-.buynow {
-    padding: 10px;
-    background-color: rgb(49, 28, 32);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    transition: 0.5s;
 }
 
 button:hover {
@@ -102,34 +93,3 @@ button:hover {
     color: #2e0406;;
 }
 
-.forSale {
-    padding: 20px;
-    display: flex;
-}
-
-
-.row{
-    display: flex;
-    margin-top:10px;
-    padding-top: 10px;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-
-.sample {
-
-    display: flex;
-    border: solid black;
-    border-radius: 10px; 
-    width: 30%;
-    padding: 10px;
-    border-radius: 20px;
-    background-color:pink;
-
-}
-
-.description{
-    padding: 10px;
-}

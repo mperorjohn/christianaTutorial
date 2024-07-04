@@ -1,0 +1,35 @@
+.row{
+    display: flex;
+    margin-top:10px;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.sample {
+
+    display: flex;
+    border: solid black;
+    border-radius: 10px; 
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:pink;
+
+}
+
+.description{
+    padding: 10px;
+}
+
+.buynow {
+    padding: 10px;
+    background-color: rgb(49, 28, 32);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
