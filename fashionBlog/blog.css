@@ -45,6 +45,7 @@ nav ul li a:hover {
 .gallery {
     display: flex;
     padding: 20px;
+    
 }
 
 .card {
