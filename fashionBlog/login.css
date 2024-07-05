@@ -1,0 +1,14 @@
+.loginpage{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5rem;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    padding: 30px;
+    border-radius: 50px;
+}
