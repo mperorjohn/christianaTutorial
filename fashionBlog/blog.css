@@ -45,7 +45,7 @@ nav ul li a:hover {
 .gallery {
     display: flex;
     padding: 20px;
-    
+
 }
 
 .card {
@@ -90,7 +90,43 @@ input {
 }
 
 button:hover {
-    background-color:white;
-    color: #2e0406;;
+    background-color: white;
+    color: #2e0406;
+    ;
 }
 
+
+
+
+.footer {
+    margin-top: 5rem;
+    background-color: black;
+    color: wheat
+}
+
+
+.row {
+    display: flex;
+    padding: 10px;
+}
+
+.col-3 {
+    width: 40%;
+    padding: 10px;
+}
+
+
+ul li {
+    list-style: none;
+    transition: 0.5s;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color:wheat;
+}
