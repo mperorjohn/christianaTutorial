@@ -1,14 +1,41 @@
 .loginpage{
     justify-content: center;
-    align-items: center;
     display: flex;
     margin-top: 5rem;
     padding: 10px;
+
+    
 }
-a{
+.loginpage a{
     text-decoration: none;
+    text-align: right;
+
+    
 }
-button{
-    padding: 30px;
-    border-radius: 50px;
+
+input{
+    width: 300px;
+}
+.signin{
+    width: 320px;
+    background-color: rgb(97, 32, 45);
+    color:burlywood;
+    border-radius: 5px;
+}
+.regform{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.register{
+    width: 320px;
+    height: 30px;
+    border:none;
+    background-color: brown;
+    border-radius: 5px;
+
+}
+select{
+    background-color: pink;
 }
