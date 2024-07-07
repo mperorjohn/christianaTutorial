@@ -14,9 +14,11 @@
 }
 
 input{
-    width: 300px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .signin{
+    padding: 10px;
     width: 320px;
     background-color: rgb(97, 32, 45);
     color:burlywood;
@@ -38,4 +40,11 @@ input{
 }
 select{
     background-color: pink;
+}
+
+.label-group{
+    display: flex;
+    /* justify-content:; */
+    justify-content:space-between;
+    margin-bottom: 5px;
 }
