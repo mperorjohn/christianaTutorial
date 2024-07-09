@@ -1,4 +1,4 @@
-.row{
+.pixrow{
     display: flex;
     margin-top:10px;
     padding-top: 10px;
@@ -39,8 +39,8 @@
 @media only screen and (max-width: 768px) {
     /* Your CSS styles here */
     
-    .row{
-        display: flex;
+    .pixrow{
+        display: block;
     }
     .sample{
         display: block;

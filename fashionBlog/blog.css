@@ -148,4 +148,7 @@ ul li a:hover {
     .gallery{
         display: block;
     }
+    .row{
+        display: block;
+    }
   }
