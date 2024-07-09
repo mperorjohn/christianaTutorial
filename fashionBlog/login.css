@@ -14,7 +14,7 @@
 }
 
 input{
-    width: 100%;
+    width: 300px;
     margin-bottom: 10px;
 }
 .signin{
@@ -40,6 +40,11 @@ input{
 }
 select{
     background-color: pink;
+    width: 320px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
 }
 
 .label-group{

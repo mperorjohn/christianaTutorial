@@ -35,3 +35,15 @@
     transition: 0.5s;
 }
 
+/* CSS for mobile devices */
+@media only screen and (max-width: 768px) {
+    /* Your CSS styles here */
+    
+    .row{
+        display: flex;
+    }
+    .sample{
+        display: block;
+    }
+    
+  }

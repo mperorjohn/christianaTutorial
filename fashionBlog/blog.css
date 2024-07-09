@@ -130,3 +130,22 @@ ul li a {
 ul li a:hover {
     color:wheat;
 }
+
+
+
+
+
+/* CSS for mobile devices */
+@media only screen and (max-width: 768px) {
+    /* Your CSS styles here */
+    body{
+        background-color: rgb(171, 134, 206);
+    
+    }
+    .resize{
+        display: none;
+    }
+    .gallery{
+        display: block;
+    }
+  }

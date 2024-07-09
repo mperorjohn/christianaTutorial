@@ -13,4 +13,12 @@ img{
     border-radius: 2px;
 
 }
+
+
+/* CSS for mobile devices */
+@media only screen and (max-width: 768px) {
+   .picturerow{
+        display: block;
+    }
+  }
     
