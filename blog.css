@@ -140,12 +140,17 @@ ul li a:hover {
     /* Your CSS styles here */
     body{
         background-color: rgb(171, 134, 206);
-    
+    }
+    .card img{
+        height:50vh;
     }
     .resize{
         display: none;
     }
     .gallery{
+        display: block;
+    }
+    .footer{
         display: block;
     }
     .row{
